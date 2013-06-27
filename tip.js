@@ -39,7 +39,7 @@
 		return true;
 	};
 	function tip(tpl, el) {
-		var tip = $.trim(el.data('tip'));
+		var tip = $.trim(el.data('tip') || el.attr('title'));
 		if (tip !== null && tip.length !== 0) {
 			var template = $(tpl),
 			    sl = $(document).scrollLeft(),
