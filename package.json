@@ -1,6 +1,8 @@
 {
   "name": "tooltip",
-  "title": "Tooltip"
+  "title": "Tooltip",
+  "version": "1.0.0",
+  "main": "tip.min.js",
   "description": "Tiny and simple jquery tooltip plugin",
 	"keywords": ["tooltip", "tip", "jquery", "plugin"],
   "authors": [
